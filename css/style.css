@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav and Footer Styles */
+nav, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    justify-content: center;
+}
+
+/* Splash Section */
+.splash {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ff00ff; /* Magenta color for headers */
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Centering Descriptions */
+section p {
+    text-align: center;
+}
+
+.centered {
+    text-align: center;
+}
+
+section dl {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    text-align: left; /* Ensure text is aligned to the left within the grid */
+    margin: 0 auto; /* Center the dl element within its container */
+}
+
+section dl dt, section dl dd {
+    margin: 0;
+}
+
+ul, dl {
+    margin: 0 auto; /* Center the ul and dl elements */
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* Border Styles */
+hr {
+    border: 0;
+    border-top: 3px solid #ff00ff; /* Magenta border */
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Link Styles */
+a {
+    color: #ff00ff; /* Magenta link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #800080; /* Darker magenta on hover */
+}
+
+/* Project Cards */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Contact Page Form */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
